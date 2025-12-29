@@ -8,7 +8,7 @@ Just download OSC_sendandreceive.be, edit the config to your needs, copy&paste t
 
 Tested on a NOUS A8T WiFi Plug, tasmota32, 13.2.0 and 15.2.0 with console ttols, Protokol and Gig Performer (gig attached...)-
 
-<img src="ddocs/nous-A8T.jpg" alt="NOUS A8T" width="400">
+<img src="docs/nous-A8T.jpg" alt="NOUS A8T" width="400">
 
 TODO:
 The first try to make this permanent showed up some differnt behaviour with running from the file system, and freeing the console(s). 
