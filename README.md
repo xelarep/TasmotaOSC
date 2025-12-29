@@ -4,7 +4,7 @@ OSC talker/listener by Berry on a Tasmota devices
 This Berry code snippets copied to the Berry console enables receiving/sending OSC messages on a Tasmota device.
 Inspired, started and developed from a conversation at https://github.com/arendst/Tasmota/discussions/24202 with @Staars
 
-Tested on a NOUS A8T WiFi Plug, tasmota32, 13.2.0 and 15.2.0 with console ttols, Protokol and Gig Performer (gig attached...)-
+Tested on a NOUS A8T WiFi Plug, tasmota32 v15.2.0 with console tools (oscsend...), Protokol and Gig Performer (THE VST plugin host for live music).
 
 <img src="docs/nous-A8T.jpg" alt="NOUS A8T" width="400">
 
