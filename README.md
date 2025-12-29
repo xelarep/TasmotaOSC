@@ -22,6 +22,11 @@ The code snippets should be self-explaining ;-)
 Reboot after uploading/modifiying and check the console log.
 
 If you want to test with GigPerformer use the attached `TasmotaOSC.gig`. Check the Widget propeerties and modyfy to your needs.
+
+<img src="docs/GP_OSC.jpg" alt="Gig Performer" width="600">
+
 Also check you global GP listening port... 
+
+<img src="docs/gpwidget.jpg" alt="Widget Properties" width="400">
 
 Have fun!
