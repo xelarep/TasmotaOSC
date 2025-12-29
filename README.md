@@ -27,6 +27,6 @@ If you want to test with GigPerformer use the attached `TasmotaOSC.gig`. Check t
 
 Also check you global GP listening port... 
 
-<img src="docs/gpwidget.jpg" alt="Widget Properties" width="400">
+<img src="docs/gpwidget.jpg" alt="Widget Properties" width="600">
 
 Have fun!
