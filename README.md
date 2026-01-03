@@ -34,3 +34,5 @@ Have fun!
 Edit: 
 I added a second transmit address:port as I use different WLAN/LAN settings, so I can receive on my host in any case ;-)
 Also keep in mind, that GigPerformer addss a /GlobalRackspace address prefic if you place your communication inside the Global Rackspace...
+
+Edit2: I made a more detailed walkthrough here: https://community.gigperformer.com/t/tasmota-and-osc-tasmotaosc/25564/5?u=tripleb
