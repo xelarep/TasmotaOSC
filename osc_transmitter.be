@@ -6,10 +6,13 @@
 # ------------------------------------------------------------
 
 # ========= Global target configuration =========
-var OSC_TARGET_IP   = "192.168.71.24"
-var OSC_TARGET_PORT = 22221
+var OSC_TARGET_IP   = "192.168.10.5"
+var OSC_TARGET_IP2  = "192.168.10.4"
+var OSC_TARGET_PORT = 47115
+var OSC_TARGET_PORT2 = 47115
 
-var OSC_TARGET_ADDR = "/powerstat/SetValue"
+#var OSC_TARGET_ADDR = "/powerstat/SetValue"
+var OSC_TARGET_ADDR = "/GlobalRackspace/RecLight/SetValue"
 
 
 # ========= Guard to avoid double loading =========
@@ -87,7 +90,8 @@ class OscPowerDriver
     end
 
     var payload = osc_power_message(value)
-    self.udp_sock.send(OSC_TARGET_IP, OSC_TARGET_PORT, payload)
+    self.udp_sock.send(OSC_TARGET_IP,  OSC_TARGET_PORT,  payload)
+    self.udp_sock.send(OSC_TARGET_IP2, OSC_TARGET_PORT2, payload)
   end
 
   # Called by Tasmota on POWER state change

@@ -30,3 +30,7 @@ Also check you global GP listening port...
 <img src="docs/gpwidget.jpg" alt="Widget Properties" width="600">
 
 Have fun!
+
+Edit: 
+I added a second transmit address:port as I use different WLAN/LAN settings, so I can receive on my host in any case ;-)
+Also keep in mind, that GigPerformer addss a /GlobalRackspace address prefic if you place your communication inside the Global Rackspace...
